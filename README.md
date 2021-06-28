@@ -5,4 +5,14 @@ A Principal component analysis was performed on the dataset which showed that 98
 
 To compare 3 different classifiers on our chosen dataset a script was developed in the programming language Python. The raw training and test data sets were in text file format. They were reformatted into an Excel workbook and read into a numpy dataframe. Scikit learn’s Principal Component Analysis algorithm was used to find the optimum number of principal components. Scikit learn’s SVM, KNeighboursClassifier and RandomForestClassifier algorithms was used to classify the data. Sklearn’s metrics function for k-fold cross validation (cross_val_score) was used to calculate each classifier’s mean squared error. Each classifier’s Accuracy, Precision, Recall and F1 score was also calculated. 
 
-![alt text](https://github.com/[dmcglynn10]/[HumanActivity]/blob/[main]/confustionMatrixSVM.png?raw=true)
+The confusion Matrix from the RandomForest classifier is as follows:
+
+![confustionMatrixRandomForest](https://github.com/dmcglynn10/HumanActivity/blob/main/confustionMatrixRandomForest.png?raw=true)
+
+The confusion Matrix from the k-nn classifier is as follows:
+
+![confustionMatrixRandomForest](https://github.com/dmcglynn10/HumanActivity/blob/main/confustionMatrixNearestNeighbours.png?raw=true)
+
+The confusion Matrix from the Support Vector Machines classifier is as follows:
+
+![confustionMatrixRandomForest](https://github.com/dmcglynn10/HumanActivity/blob/main/confustionMatrixSVM.png?raw=true)
